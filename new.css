@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.upper{
+  margin-left: 48px;
+}
+.fir{
+  margin-left: 8px;
+  display: flex;
+  gap: 4%;
+  width: 50%;
+}
+.sec{
+  margin-left: 8px;
+  display: flex;
+  gap: 4%;
+  width: 50%;
+  margin-top: 1.5rem ;
+}
+.thi{
+  margin-left: 8px;
+  display: flex;
+  gap: 4%;
+  width: 50%;
+  margin-top: -32rem;
+  float: right;
+}
+.fou{
+  margin-left: 8px;
+  display: flex;
+  gap: 4%;
+  width: 50%;
+  margin-top: -15.2rem;
+  float: right;
+}
+.wom .cat-but {
+  top: 66%;
+  left: 13%;
+}
+.men .cat-but {
+  top: 66%;
+  left: 27.5%;
+}
+.denim .cat-but {
+  top: 83%;
+  left: 13%;
+}
+.wwear .cat-but {
+  top: 83%;
+  left: 27.5%;
+}
+.beaut .cat-but {
+  top: 66%;
+  left: 74.4%;
+}
+.ftwear .cat-but {
+  top: 66%;
+  left: 59.8%;
+}
+.jewel .cat-but {
+  top: 83%;
+  left: 59.8%;
+}
+.kid .cat-but {
+  top: 83%;
+  left: 74.4%;
+}
+.cat-but {
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  position: absolute;
+  cursor: pointer;
+}
+.cat-but:hover {
+  color: #2d2d2d;
+}
+.cat-heading h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 44px;
+  margin-left: 56px;
+}
+
+
+.lower {
+  display: flex;
+  justify-content: space-around;
+}
+.cat-box {
+  position: relative;
+}
+.cat-rating {
+  display: flex;
+  position: absolute;
+  bottom: 21px;
+  left: 12px;
+  background: #ffffff;
+  padding: 0px 4px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.cat-rate {
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.cat-box p {
+  padding: 2px;
+}
+.cat-wishlist {
+  position: absolute;
+  bottom: 18px;
+  left: 202px;
+}
+.cat-text {
+  position: absolute;
+  margin-top: 4px;
+}
+.cat-text h3 {
+  font-size: 16px;
+}
+.cat-desc {
+  color: #737373;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.cat-discount {
+  display: flex;
+}
+.cat-price1 {
+  text-decoration: line-through;
+  color: #737373;
+}
+.cat-price {
+  color: #82aae3;
+  font-weight: bold;
+}
+.cat-btn button {
+  position: absolute;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  padding: 10px 24px;
+  width: 240px;
+  display: block;
+  border-radius: 8px;
+  margin: 140px 0;
+  font-weight: bold;
+}

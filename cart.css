@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.c-order {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  margin-left: 56px;
+  margin-top: -36px;
+}
+.text {
+  width: 40%;
+  margin-left: 56px;
+  margin-bottom: 20px;
+  display: flex;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+}
+.name {
+  margin-left: 24px;
+}
+/* .pricee{
+    margin-top: -10px;
+    margin-bottom: -6px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+} */
+/* .p{
+    margin-top: 2px;
+    margin-bottom: 12px;
+} */
+/* .price1{
+    text-decoration: line-through;
+} */
+.price {
+  margin-top: 2px;
+  margin-bottom: 12px;
+  color: #82aae3;
+  font-weight: bold;
+}
+.image {
+  padding: 12px;
+}
+.top {
+  margin-top: -8px;
+  width: 190%;
+  display: flex;
+  justify-content: space-between;
+}
+.desc {
+  margin-top: -8px;
+  font-size: 15px;
+}
+.qty {
+  margin-top: -4px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.qty p {
+  font-weight: bold;
+}
+.del {
+  margin-top: 2px;
+  font-size: 15px;
+}
+/* right cont */
+.c-rt {
+  margin-top: -472px;
+  margin-right: 50px;
+  height: 400px;
+  width: 500px;
+  /* border: 2px solid rgb(192, 88, 88); */
+  float: right;
+}
+.c-rt input {
+  width: 424px;
+  padding: 10px;
+}
+.app {
+  position: absolute;
+  top: 27.4%;
+  left: 86%;
+  color: #82aae3;
+  font-weight: bold;
+}
+.btn {
+  margin-top: 8px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  padding: 10px 24px;
+  width: 424px;
+  display: block;
+  border-radius: 8px;
+  /* margin: 140px 0; */
+  font-weight: bold;
+}
+.money {
+  display: flex;
+  width: 424px;
+  justify-content: space-between;
+  margin-bottom: -8px;
+}
+.free {
+  color: rgb(64, 193, 50);
+  font-weight: bold;
+}
+.pr {
+  margin-top: 36px;
+}

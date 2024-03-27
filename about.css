@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.a-firstb {
+  background-color: #144272;
+  color: white;
+  width: 55%;
+  margin: -28px;
+  padding: 48px;
+  display: block;
+}
+body {
+  overflow: hidden;
+}
+.a-fb-content {
+  font-size: 18px;
+}
+.a-fp-content {
+  width: 40.75%;
+  float: right;
+  margin: -207.4px -8.5px -7.5px;
+  height: 214.5px;
+}
+.about {
+  width: 195px;
+  float: left;
+  height: 212px;
+  margin: -1px;
+  background-color: #bfeaf5;
+  color: black;
+  transform: rotate(270deg) translate(0px, 0px);
+  padding: 5px;
+}
+.a-text {
+  margin-left: 32px;
+  margin-top: 80px;
+  font-size: 28px;
+}
+.a-middleb {
+  background-color: #82aae3;
+  width: 60%;
+  padding: 56px;
+  margin-top: 7px;
+  margin-left: 212px;
+}
+.a-mb-content {
+  font-size: 17px;
+}
+.a-color {
+  background-color: #2d2d2d;
+  width: 9rem;
+  margin-left: 66rem;
+  margin-top: -206px;
+  padding: 103px;
+}
+.a-sp {
+  margin: 0px;
+  margin-left: -212px;
+  width: 36%;
+  height: 114px;
+}
+.a-thirdb {
+  background-color: #e6ddc4;
+  width: 65.2%;
+  margin-left: 440px;
+  margin-top: -118px;
+  padding: 4px;
+  padding-top: 20px;
+  height: 101px;
+}
+.a-tb-content {
+  font-size: 17px;
+  margin: 12px 0px 12px 30px;
+}

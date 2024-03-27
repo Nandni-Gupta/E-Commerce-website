@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.top1 {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+.top1 h3 {
+  margin-top: -37px;
+  margin-left: -4px;
+}
+.left {
+  margin-left: 52px;
+}
+.check {
+  margin-top: -16px;
+  align-items: center;
+  display: flex;
+}
+.cod2 {
+  align-items: center;
+  display: flex;
+  border: 1px solid #d2d2d2;
+  padding: 0px;
+  gap: 8px;
+  width: 528px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 0px;
+}
+.cod {
+  align-items: center;
+  display: flex;
+  border: 1px solid #d2d2d2;
+  padding: 0px;
+  gap: 8px;
+  width: 528px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.round input {
+  margin-left: 8px;
+}
+.check input {
+  margin-left: -6px;
+}
+.cod1 {
+  border: 1px solid #d2d2d2;
+  padding: 16px;
+  gap: 16px;
+  width: 498px;
+  height: 196px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.input1 {
+  width: 464px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  margin-top: 8px;
+  padding: 0px 12px;
+}
+.input5 {
+  width: 464px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  margin-top: 16px;
+  padding: 0px 12px;
+}
+.input2 {
+  width: 201px;
+  height: 38px;
+  margin-top: 16px;
+  padding: 0px 12px;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+}
+.input4 {
+  width: 213px;
+  height: 38px;
+  margin-top: 16px;
+  border-radius: 8px;
+  margin-left: 24px;
+  padding: 0px 12px;
+  border: 1px solid #d2d2d2;
+}
+.input3 {
+  display: flex;
+  flex-direction: row;
+}
+.check p {
+  margin-left: 16px;
+}
+.pay1 {
+  margin-left: 248px;
+}
+.icons {
+  margin-left: 55px;
+  margin-top: 16px;
+  width: 416px;
+  height: 32px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  margin-top: 8px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  padding: 10px 24px;
+  width: 424px;
+  display: block;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.money {
+  display: flex;
+  width: 424px;
+  justify-content: space-between;
+  margin-bottom: -8px;
+}
+.free {
+  color: rgb(64, 193, 50);
+  font-weight: bold;
+}
+.pr {
+  float: right;
+  margin-top: -29rem;
+  margin-right: 100px;
+}

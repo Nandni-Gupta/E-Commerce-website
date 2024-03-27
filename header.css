@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
+
+.head-text{
+    margin-top: 1px;
+    margin-left: 326px;
+    display: block;
+    position: absolute;
+}
+.navbar a.active{
+  color: #4c77b4;
+} 
+.head-icon{
+   padding-left: 59rem;
+   /* display: flex;
+   justify-content: space-between; */
+}
+.img{
+    margin-top: -28px;
+    max-width: 120px;
+    float: left;
+}
+.navbar ul{
+overflow: auto;
+}
+.navbar li{
+float:left;
+list-style: none;
+ margin: 13px 20px;
+}
+.navbar li a:hover{
+color: #4c77b4;
+}
+.navbar li a{
+text-decoration: none;
+padding: 3px 3px;
+color: #82AAE3;
+font-size: 20px;
+font-weight: bold;
+}
+.navbar input:hover{
+border: 2px solid #4c77b4;
+}

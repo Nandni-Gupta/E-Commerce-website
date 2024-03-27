@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.upper {
+  display: flex;
+}
+.kft {
+  display: flex;
+}
+.accbea {
+  display: flex;
+}
+.kfab {
+  display: flex;
+  flex-direction: column;
+}
+.women {
+  position: relative;
+}
+.men {
+  position: relative;
+}
+.beauty {
+  position: relative;
+}
+.kids {
+  position: relative;
+}
+.ftwear {
+  position: relative;
+}
+.access {
+  position: relative;
+}
+.women .cat-but {
+  top: 84%;
+  left: 4%;
+}
+.men .cat-but {
+  top: 84%;
+  left: 4%;
+}
+.access .cat-but {
+  top: 8%;
+  left: 44%;
+}
+.kids .cat-but {
+  top: 76%;
+  left: 44%;
+}
+.beauty .cat-but {
+  top: 8%;
+  left: 5%;
+}
+.ftwear .cat-but {
+  top: 76%;
+  left: 5%;
+}
+.cat-but {
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  width: 132px;
+  height: 44px;
+  font-size: 16px;
+  position: absolute;
+  cursor: pointer;
+}
+.cat-but:hover {
+  color: #2d2d2d;
+}
+.image {
+  padding: 2.8px;
+}
+.cat-heading h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 44px;
+  margin-left: 56px;
+}
+.lower {
+  display: flex;
+  justify-content: space-around;
+}
+.cat-box {
+  position: relative;
+}
+.cat-rating {
+  display: flex;
+  position: absolute;
+  bottom: 21px;
+  left: 12px;
+  background: #ffffff;
+  padding: 0px 4px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.cat-rate {
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.cat-box p {
+  padding: 2px;
+}
+.cat-wishlist {
+  position: absolute;
+  bottom: 18px;
+  left: 202px;
+}
+.cat-text {
+  position: absolute;
+  margin-top: 4px;
+}
+.cat-text h3 {
+  font-size: 16px;
+}
+.cat-desc {
+  color: #737373;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.cat-discount {
+  display: flex;
+}
+.cat-price1 {
+  text-decoration: line-through;
+  color: #737373;
+}
+.cat-price {
+  color: #82aae3;
+  font-weight: bold;
+}
+.cat-btn button {
+  position: absolute;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  padding: 10px 24px;
+  width: 240px;
+  display: block;
+  border-radius: 8px;
+  margin: 140px 0;
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.container-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 44px;
+  margin-left: 56px;
+}
+.container-heading img {
+  margin-left: 16px;
+}
+.container-heading p {
+  margin-left: 16px;
+}
+.container-heading h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.box {
+  position: relative;
+}
+.rating {
+  display: flex;
+  position: absolute;
+  bottom: 21px;
+  left: 12px;
+  background: #ffffff;
+  padding: 0px 4px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.rate {
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.box p {
+  padding: 2px;
+}
+.wishlist {
+  position: absolute;
+  bottom: 18px;
+  left: 202px;
+}
+.text {
+  position: absolute;
+  margin-top: 4px;
+}
+.text h3 {
+  font-size: 16px;
+}
+.desc {
+  color: #737373;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.discount {
+  display: flex;
+}
+.price1 {
+  text-decoration: line-through;
+  color: #737373;
+}
+.price {
+  color: #82aae3;
+  font-weight: bold;
+}
+.btn button {
+  position: absolute;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  padding: 10px 24px;
+  width: 240px;
+  display: block;
+  border-radius: 8px;
+  margin: 140px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(229px, 1fr));
+  gap: 236px 42px;
+  margin-left: 66px;
+}

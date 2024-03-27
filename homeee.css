@@ -1,0 +1,142 @@
+/* .home-main{
+    display: flex;
+    flex-direction: column;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+  font-family: 'Ubuntu', sans-serif;
+   content: normal;
+}
+.home{
+    width: 78.6rem;
+    height: 324px;
+    margin: -2px;
+}
+.home-up{
+   position: relative;
+}
+.h{
+    font-size: 48px;
+}
+.h1{
+   position: absolute;
+   top: 12%;
+   left: 8%;
+}
+.h2{
+   position: absolute;
+   top: 32%;
+   left: 8%;
+}
+.h3{
+   position: absolute;
+   top: 52%;
+   left: 8%;
+}
+.h4{
+   position: absolute;
+   top: 84%;
+   left: 8%;
+}
+.home-low{
+   /* background-color: #82AAE3; */
+   position: relative;
+}
+.home-text{
+    margin: auto;
+  width: 50%;
+  padding: 56px;
+  text-align: center; 
+}
+/* .bt{
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 3px;
+} */
+   .home-low h2{
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    font-size: 28px;
+    color: #1b4665;
+   }
+   /* .arr{
+      position: absolute;
+      top: 24%;
+      right: ;
+   } */
+   .footwear{
+position: absolute;
+top: 48%;
+right: 20%;
+   }
+   .accessory{
+position: absolute;
+top: 48%;
+right: 9%;
+   }
+   .denim{
+    position: absolute;
+    top: 66%;
+    right: 20%;
+   }
+   .apparel{
+    position: absolute;
+    top: 66%;
+    right: 9%;
+   }
+   .homee{
+      width: 78.6rem;
+      height: 324px;
+      margin: -2px;
+   }
+ .bx{
+    width: 122px;
+    font-size: 20px;
+ }
+ .home-text h2{
+    font-size: 32px;
+ }
+.home-text p{
+   padding: 12px;
+}
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}

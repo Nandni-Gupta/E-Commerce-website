@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  content: normal;
+}
+.img1 {
+  width: 79.97rem;
+  height: 80%;
+  margin: -24px;
+  position: relative;
+}
+.h {
+  font-size: 48px;
+}
+.h1 {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+.h2 {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+}
+.h3 {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+}
+.h4 {
+  position: absolute;
+  top: 90%;
+  left: 8%;
+}
+.home-text {
+  position: absolute;
+  top: 24%;
+  left: 64%;
+  width: 35%;
+  font-size: 18px;
+  text-align: center;
+}
+.home-low h2 {
+  position: absolute;
+  top: 111%;
+  left: 71%;
+  font-size: 28px;
+}
+.footwear {
+  position: absolute;
+  top: 128%;
+  left: 71%;
+}
+.accessory {
+  position: absolute;
+  top: 128%;
+  left: 82.4%;
+}
+.denim {
+  position: absolute;
+  top: 140%;
+  left: 71%;
+}
+.apparel {
+  position: absolute;
+  top: 140%;
+  left: 82.4%;
+}
+.bx {
+  width: 122px;
+  font-size: 20px;
+}
+.bt {
+  background-color: #6c8498;
+  border-radius: 3px;
+  border: 1px solid #2d4759;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: rgb(242, 239, 239);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.bt:hover,
+.bt:focus {
+  background-color: #8daabf;
+  color: #2d4759;
+}
+
+.bt:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.bt:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2d4759;
+}
